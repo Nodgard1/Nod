@@ -1,0 +1,44 @@
+.fon {
+    background: #000 url(../img/35-352624_images-of-space-galaxy-transparent-transparent-space-png.png);
+    background-size: 100%;
+    background-position: fixed;
+}
+
+.centered {
+  text-align: center;
+
+}   
+.rectangle-zodiak {
+width: 15%;
+height: 15%;
+border: 2px solid; 
+margin:auto;
+background: #25537b;
+text-align: center;
+vertical-align: top;
+padding-top: 1%;
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 4px 12px rgba(0, 0, 0, 0.31);
+color:white;
+border-radius: 22%;
+}
+.scale {
+  transition: 1s;
+ }
+ .scale:hover {
+  transform: scale(1.025);
+ }
+ 
+#selector {z-index: 2;}
+#layer2 {z-index: 1;}
+#selector, #layer2 {
+  position: relative;
+}
+.text-zodiak {
+  font-size: 25;
+  font-weight: bold;
+  color:white!important;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
